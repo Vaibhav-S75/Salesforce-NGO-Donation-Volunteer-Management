@@ -10,8 +10,8 @@
 
 <p align="center">
   <!-- Profile buttons -->
-  <a href="YOUR_TRAILHEAD_PROFILE_LINK" target="_blank">
-    <img src="https://img.shields.io/badge/Trailhead-View%20Profile-00A1E0?logo=salesforce&logoColor=white" alt="Trailhead Profile">
+  <a href="https://www.salesforce.com/trailblazer/vaibhav-s-75" target="_blank">
+    <img src="https://img.shields.io/badge/Trailblazer-View%20Profile-00A1E0?logo=salesforce&logoColor=white" alt="Trailblazer Profile">
   </a>
   <a href="YOUR_SKILL_WALLET_PROFILE_LINK" target="_blank">
     <img src="https://img.shields.io/badge/Skill%20Wallet-View%20Profile-111827" alt="Skill Wallet">
@@ -31,24 +31,24 @@ This repository documents my work in the **TCS LastMile 12-week Salesforce Train
 
 ---
 
-
-
----
-
 ## 🏆 Profiles & Badges
-- 👤 **Trailhead:** [View Profile](YOUR_TRAILHEAD_PROFILE_LINK)  
+- 👤 **Trailblazer:** [View My Salesforce Profile](https://www.salesforce.com/trailblazer/vaibhav-s-75)  
 - 🪪 **Skill Wallet:** [View Profile](YOUR_SKILL_WALLET_PROFILE_LINK)
 
-**Badge strip (customizable):**  
+**Trailhead Badge Showcase:**  
+<p align="left">
+  <img src="https://img.shields.io/badge/Trailhead-Badges%20Earned-00A1E0?logo=salesforce&logoColor=white" alt="Trailhead Badges">
+  <img src="https://img.shields.io/badge/Superbadges-In%20Progress-orange?logo=salesforce&logoColor=white" alt="Superbadges">
+  <img src="https://img.shields.io/badge/Modules-Completed-green?logo=salesforce&logoColor=white" alt="Modules Completed">
+</p>
+
+**Skills Badge Strip:**  
 ![Salesforce Admin](https://img.shields.io/badge/Admin-Progress-00A1E0?logo=salesforce&logoColor=white)
 ![Apex](https://img.shields.io/badge/Apex-Hands%20On-0A84FF)
 ![LWC](https://img.shields.io/badge/LWC-Components-6A5ACD)
 ![SOQL/SOSL](https://img.shields.io/badge/SOQL%2FSOSL-Queries-10B981)
 ![Async Apex](https://img.shields.io/badge/Async-Future%20%7C%20Batch%20%7C%20Queueable-22C55E)
 ![Reports & Dashboards](https://img.shields.io/badge/Analytics-Reports%20%26%20Dashboards-F59E0B)
-
-> Tip: You can add your **Trailhead badge count** as a static shield:  
-> `https://img.shields.io/badge/Trailhead_Badges-YOUR_COUNT-00A1E0?logo=salesforce&logoColor=white`
 
 ---
 
@@ -133,6 +133,3 @@ sf project deploy start --source-dir force-app
 
 # 4) Open the org
 sf org open --target-org tcs-training
-
-
-## 🗂️ Repository Map
