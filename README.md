@@ -87,9 +87,3 @@ A Salesforce-based management system with:
 - **Reports:** Donations by Donor, High-Value Donations, Volunteer Distribution  
 - **Presentation:** Final demo video + GitHub repo with documentation  
 
----
-
-## 🛠️ Setup (Quick Start for Reviewers)
-1. Clone repo:  
-   ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/ngo-donation-volunteer-management.git
