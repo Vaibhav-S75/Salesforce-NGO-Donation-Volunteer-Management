@@ -1,12 +1,12 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Salesforce-LastMile%20Training-00A1E0?logo=salesforce&logoColor=white" alt="Salesforce LastMile">
-  <img src="https://img.shields.io/badge/Duration-12%20Weeks-4CAF50" alt="12 Weeks">
-  <img src="https://img.shields.io/badge/Focus-Admin%20|%20Apex%20|%20LWC-6A5ACD" alt="Focus">
+  <img src="https://img.shields.io/badge/Salesforce-Capstone%20Project-00A1E0?logo=salesforce&logoColor=white" alt="Salesforce Capstone">
+  <img src="https://img.shields.io/badge/Duration-10%20Days-4CAF50" alt="10 Days">
+  <img src="https://img.shields.io/badge/Focus-Admin%20|%20Automation%20|%20Apex-6A5ACD" alt="Focus">
 </p>
 
-<h1 align="center">🚀 TCS LastMile Salesforce Training (Jul–Oct 2025)</h1>
-<p align="center">A hands-on learning journey across Salesforce Admin, Apex, and Lightning Web Components with an end-to-end Capstone.</p>
+<h1 align="center">🌍 NGO Donation & Volunteer Management System</h1>
+<p align="center">A Salesforce Capstone Project built during TCS Smartbridge LastMile Program.</p>
 
 <p align="center">
   <!-- Profile buttons -->
@@ -17,119 +17,79 @@
     <img src="https://img.shields.io/badge/Skill%20Wallet-View%20Profile-111827" alt="Skill Wallet">
   </a>
   <!-- Repo stats -->
-  <img src="https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/tcs-lastmile-salesforce-training?label=Last%20update" alt="Last update">
-  <img src="https://img.shields.io/badge/Made%20with-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/github/last-commit/YOUR_GITHUB_USERNAME/ngo-donation-volunteer-management?label=Last%20update" alt="Last update">
 </p>
 
 ---
 
 ## 📌 Overview
-This repository documents my work in the **TCS LastMile 12-week Salesforce Training**—from fundamentals to a production-style **Capstone**. It includes weekly notes, hands-on exercises, LWC components, Apex code samples, and certification prep.
+This repository documents the end-to-end development of an **NGO Donation & Volunteer Management System** built entirely on Salesforce.  
+It allows NGOs to track donors, donations, volunteers, and events, while automating key processes such as thank-you emails, approval for high-value donations, and event capacity management.
 
-- **Tracks:** Salesforce Admin • Sales Cloud • Service Cloud • Apex • SOQL/SOSL • Async Apex • LWC  
-- **Tooling:** Salesforce CLI, VS Code, GitHub Projects, Trailhead
-
----
-
-## 🏆 Profiles & Badges
-- 👤 **Trailblazer:** [View My Salesforce Profile](https://www.salesforce.com/trailblazer/vaibhav-s-75)  
-- 🪪 **Skill Wallet:** [View Profile](YOUR_SKILL_WALLET_PROFILE_LINK)
-
-**Trailhead Badge Showcase:**  
-<p align="left">
-  <img src="https://img.shields.io/badge/Trailhead-Badges%20Earned-00A1E0?logo=salesforce&logoColor=white" alt="Trailhead Badges">
-  <img src="https://img.shields.io/badge/Superbadges-In%20Progress-orange?logo=salesforce&logoColor=white" alt="Superbadges">
-  <img src="https://img.shields.io/badge/Modules-Completed-green?logo=salesforce&logoColor=white" alt="Modules Completed">
-</p>
-
-**Skills Badge Strip:**  
-![Salesforce Admin](https://img.shields.io/badge/Admin-Progress-00A1E0?logo=salesforce&logoColor=white)
-![Apex](https://img.shields.io/badge/Apex-Hands%20On-0A84FF)
-![LWC](https://img.shields.io/badge/LWC-Components-6A5ACD)
-![SOQL/SOSL](https://img.shields.io/badge/SOQL%2FSOSL-Queries-10B981)
-![Async Apex](https://img.shields.io/badge/Async-Future%20%7C%20Batch%20%7C%20Queueable-22C55E)
-![Reports & Dashboards](https://img.shields.io/badge/Analytics-Reports%20%26%20Dashboards-F59E0B)
+- **Tracks:** Salesforce Admin • Data Modeling • Security • Automation • Apex • Analytics  
+- **Built For:** TCS Smartbridge Salesforce Capstone (2025)  
+- **Timeframe:** 10 Days (Daily deliverables documented)
 
 ---
 
-## 🧭 Learning Journey
-<details>
-<summary><b>Weeks 1–3 • Foundations</b> — Cloud, Salesforce Fundamentals, Data Modeling, Security, Reports</summary>
+## 🎯 Problem Statement
+NGOs often face difficulties managing donations, volunteers, and fundraising events efficiently.  
+Manual tracking leads to errors, poor donor engagement, and lack of real-time visibility.
 
-- Org setup, editions, architecture, AppExchange  
-- Standard vs Custom Objects, relationships, formulas, rollups  
-- User/Roles/Profiles/OWD/Sharing rules  
-- Reports, Dashboards, Dynamic Dashboards  
-</details>
+**Our Solution:**  
+A Salesforce-based management system with:  
+- Centralized donor and volunteer records  
+- Automated donation processing & thank-you communication  
+- Approval workflows for high-value donations  
+- Real-time tracking of event volunteer capacity  
+- Reports and dashboards for NGO managers  
 
-<details>
-<summary><b>Weeks 4–5 • Apps & Apex</b> — Sales/Service Cloud, Automation, Apex Basics + Testing</summary>
+---
 
-- Leads, Campaigns, Case Management, Web-to-Lead/Case  
-- Validation, Approval Process, Assignment, Escalation  
-- Apex: variables, control flow, DML, SOQL/SOSL, triggers, exceptions, tests  
-</details>
+## 🧭 Project Phases
+- **Day 1–2:** Org setup, roles, profiles, OWD, sharing, permission sets  
+- **Day 3:** Validation rules, record-triggered flows, approval process, email templates  
+- **Day 4:** Apex trigger (donation auto-status), utility class (donation total), test class (coverage)  
+- **Day 5–6:** Lightning App setup, navigation, record pages, UI improvements  
+- **Day 7–8:** Reports & Dashboards (donations by type, donor summary, volunteer allocation)  
+- **Day 9:** Security review, testing, final fixes  
+- **Day 10:** Final presentation & demo recording  
 
-<details>
-<summary><b>Weeks 6–7 • Advanced Dev</b> — Async Apex + LWC</summary>
+---
 
-- Future, Queueable, Batch, Schedulable  
-- LWC: setup, folder structure, events, styling, data access  
-</details>
-
-<details>
-<summary><b>Weeks 7–9 • Capstone</b> — End-to-end build</summary>
-
-- Full implementation across Sales + Service + LWC  
-- Security model, automation, analytics, deployment  
-</details>
-
-<details>
-<summary><b>Weeks 10–12 • Cert & Soft Skills</b></summary>
-
-- Salesforce Admin + Platform Developer I prep  
-- Resume, mock interviews, presentations  
-</details>
+## 🛠 Features
+- 🔐 **Security Model:** Roles (NGO Admin, Volunteer Manager, Donor Manager), Profiles, Permission Sets  
+- ⚙️ **Automation:**  
+  - Validation rules for data quality  
+  - Record-triggered flows (Thank-You email, auto update event slots)  
+  - Approval process for donations > 50,000  
+- 💻 **Apex Development:**  
+  - Trigger for auto donation status  
+  - Utility class to calculate total donations by donor  
+  - Test class with >75% coverage  
+- 📊 **Analytics:** Reports & Dashboards for donors, donations, and volunteers  
+- 🖥️ **UI:** NGO Manager Lightning App with custom tabs and schema builder  
 
 ---
 
 ## 🧪 Tech & Tooling
-- **Salesforce:** Admin, Apex, LWC, SOQL/SOSL, Reports  
-- **Dev Tools:** VS Code, Salesforce CLI, Git/GitHub  
-- **Project:** GitHub Projects, Issues, PRs  
-- **Practice:** Trailhead Trailmixes, Hands-on Orgs
+- **Salesforce:** Admin, Apex, Flows, Approval Processes, Reports & Dashboards  
+- **Dev Tools:** Salesforce Org + Developer Console (no VS Code required)  
+- **Collaboration:** GitHub (daily commits, screenshots, reports)  
+- **Docs:** Daily progress logs, test cases, screenshots  
 
 ---
 
-## 🧩 Capstone (Template)
-**Title:** _YOUR_CAPSTONE_NAME_  
-**Problem:** What business problem are you solving?  
-**Solution:** Key objects, automations, Apex logic, LWC UIs  
-**Highlights:**
-- 🔐 Role/OWD/Sharing design
-- ⚙️ Automation: Approval/Assignment/Flows
-- 💻 Apex: Triggers, services, tests (>75% coverage)
-- 🧩 LWC: interactive UI components
-- 📊 Analytics: Reports & Dashboards
-
-**Architecture Diagram:** `capstone-project/docs/architecture.png`  
-**Demo:** link to slides/video/GIF
+## 🧩 Capstone Deliverables
+- **Objects:** Donor, Donation, Volunteer, Event, Volunteer Event Assignment (junction)  
+- **Automation:** Flows, Approvals, Validation Rules  
+- **Apex:** Trigger, Class, Test Class  
+- **Reports:** Donations by Donor, High-Value Donations, Volunteer Distribution  
+- **Presentation:** Final demo video + GitHub repo with documentation  
 
 ---
 
-## 🛠️ Setup (Quick Start)
-```bash
-# 1) Install Salesforce CLI (sf) and login
-sf --version
-sf org login web --alias YOUR_ALIAS
-
-# 2) Clone and open
-git clone https://github.com/YOUR_GITHUB_USERNAME/tcs-lastmile-salesforce-training.git
-cd tcs-lastmile-salesforce-training
-
-# 3) (Optional) Create/authorize a scratch org and push metadata
-sf org create scratch --definition-file config/project-scratch-def.json --alias tcs-training --duration-days 7
-sf project deploy start --source-dir force-app
-
-# 4) Open the org
-sf org open --target-org tcs-training
+## 🛠️ Setup (Quick Start for Reviewers)
+1. Clone repo:  
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/ngo-donation-volunteer-management.git
